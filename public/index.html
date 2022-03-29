@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link href="%PUBLIC_URL%/favicon.ico" rel="shortcut icon" />
+
+    <!-- <link href="%PUBLIC_URL%/css/plugins.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="%PUBLIC_URL%/css/main.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="%PUBLIC_URL%/css/responsive.css" rel="stylesheet" type="text/css"> -->
+
+    <link rel="stylesheet" href="https://unpkg.com/splitting@1.0.0/dist/splitting.css" />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css" /> -->
+    <!-- 
+      Uncomment to add favicons for other platforms
+      These files can be generated with realfavicongenerator.net
+    -->
+    <!--
+    <link href="%PUBLIC_URL%/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png" />
+    <link href="%PUBLIC_URL%/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+    <link href="%PUBLIC_URL%/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180" />
+    <link href="%PUBLIC_URL%/safari-pinned-tab.svg" rel="mask-icon" color="#4a9885" />
+    <link href="%PUBLIC_URL%/site.webmanifest" rel="manifest" />
+    -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+    <script src="%PUBLIC_URL%/js/jquery-v1.12.4.min.js"></script>
+    <!-- <script src="https://unpkg.com/splitting@1.0.0/dist/splitting.js"></script> -->
+
+    <script src="%PUBLIC_URL%/js/plugins.js"></script>
+    <script src="%PUBLIC_URL%/js/main.js"></script>
+     
+    <script>
+        jQuery(document).ready(function(){
+            console.log('hello');
+            Splitting();
+        })
+    </script>
+  </body>
+</html>
